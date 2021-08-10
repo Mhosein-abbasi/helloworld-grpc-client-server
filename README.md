@@ -1,6 +1,6 @@
 # README
 
-# Building a RESTful Web Service
+# Building a gRPC Service
 creating a “Hello World” gRPC service with Spring boot
 
 # What You Will Build
