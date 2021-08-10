@@ -1,0 +1,17 @@
+syntax = "proto3";
+package proto;
+
+option java_package = "org";
+option java_outer_classname = "HelloWorldRequestsProtoGrpc";
+
+message sayHelloRequest{
+  string name = 1;
+}
+
+message sayHelloResponse{
+  string sayHello = 1;
+}
+
+service HelloWorldService{
+  rpc say (sayHelloRequest) returns (sayHelloResponse);
+}
